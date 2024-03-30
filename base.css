@@ -360,7 +360,7 @@ button[aria-label="Send a gift"] {
 
 .wordmark__5b8c9:after {
   filter: invert(var(--watermark-filter-invert)) sepia(var(--watermark-filter-sepia)) saturate(var(--watermark-filter-saturate)) hue-rotate(var(--watermark-filter-hue-rotate)) brightness(var(--watermark-filter-brightness)) contrast(var(--watermark-filter-contrast));
-  content: "Discord by mlodyharry xppp";
+  content: "Discord by mlodyharry";
   color: #ffffff;
 }
 .channelName-3KPsGw,
