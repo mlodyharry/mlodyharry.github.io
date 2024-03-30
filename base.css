@@ -136,7 +136,7 @@
      z-index: -1;
  }
 
- div[class*="typeWindows_e41dab.wordmark_5b8c9"]:before {
+ div[class*="typeWindows_e41dab.wordmark_5b8c9"]::after {
     content: "by mlodyharry";
     color: rgba(255,255,255,7);
     font-size: 14px;
