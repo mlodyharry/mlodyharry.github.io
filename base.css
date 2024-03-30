@@ -1,3 +1,8 @@
+/* 
+ * Yes, this codebase is near unreadable. Why?
+ * I designed this mainly as a test to see how viable avoidance of straight out class selectors would be.
+ * The codebase was never designed to be pretty, it was designed to require as little maintenance as possible.
+ */
 
  @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600;700&display=swap');
  @import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css');
@@ -131,7 +136,7 @@
      z-index: -1;
  }
 
- div[class*="typeWindows-"]::after {
+ div[class*="typeWindows_e41dab.wordmark_5b8c9"]:before {
     content: "by mlodyharry";
     color: rgba(255,255,255,7);
     font-size: 14px;
