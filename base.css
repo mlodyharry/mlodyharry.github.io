@@ -138,7 +138,7 @@
 
  .typeWindows_e41dab>.wordmark__5b8c9:after{
     content:"by mlodyharry";
-    color:rgba(255,255,255,.7);
+    color: var(--text-muted);
     font-size:14px;
     text-shadow:0 0 3px #000;
     font-weight: 5000;
@@ -150,6 +150,11 @@
     background: rgba(var(--md-black), 0.85);
     z-index: -1;
 
+}
+
+.typeWindows_e41dab>.wordmark__5b8c9:after {
+ content: "0.2b";
+ color: var(--text-muted);
 }
 
  
