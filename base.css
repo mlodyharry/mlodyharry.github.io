@@ -121,7 +121,7 @@
  }
  
  div[class*="typeWindows-"]::after {
-     content: 'xddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd';
+     content: 'Discord';
      font-weight: 5000;
      line-height: 31px;
      color: var(--text-muted);
@@ -136,12 +136,8 @@
      z-index: -1;
  }
 
- div[class*="typeWindows_e41dab.wordmark_5b8c9"]::after {
-    content: "by mlodyharry";
-    color: rgba(255,255,255,7);
-    font-size: 14px;
-    text-shadow: 0 0 3px #000;
- }
+ .typeWindows_e41dab>.wordmark__5b8c9:before{content:"by mlodyharry";color:rgba(255,255,255,.7);font-size:14px;text-shadow:0 0 3px #000}
+
  
  
  /* Guilds */
