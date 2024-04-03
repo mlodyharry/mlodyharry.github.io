@@ -139,7 +139,7 @@
 .wordmark__5b8c9:after {
     content:"by mlodyharry";
     font-weight: 1000;
-    line-height: 24px;
+    line-height: 20px;
     color: var(--text-muted);
     font-size:12px;
     position: absolute;
@@ -152,7 +152,28 @@
     z-index: -1;
     padding: 0 12px;
     width: 130%;
-    height: 0px;
+    height: 10px;
+    background: rgba(var(--md-black), 0.85);
+
+}
+
+.wordmark__5b8c9:after {
+    content: "0.2.3"
+    font-weight: 1000px;
+    line-height: 20px;
+    color: var(--text-muted);
+    font-size:12px;
+    position: absolute;
+    padding: 0 10px;
+    top: 0;
+    left: 1;
+    width: 100%;
+    height: 30px;
+    background: rgba(var(--md-black), 0.85);
+    z-index: -1;
+    padding: 0 12px;
+    width: 130px;
+    height: 10px;
     background: rgba(var(--md-black), 0.85);
 
 }
